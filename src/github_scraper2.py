@@ -29,8 +29,8 @@ TARGET_REPO = "VerilogCode"           # <-- Replace with your target repository 
 TARGET_BRANCH = "data_collection"          # Branch where files will be uploaded
 
 # Scraping settings: process 90 repos (3 pages x 30 results per page)
-RESULTS_PER_PAGE = 2
-MAX_PAGES = 1
+RESULTS_PER_PAGE = 30
+MAX_PAGES = 10
 
 # Concurrency control
 CONCURRENT_REQUESTS = 5
